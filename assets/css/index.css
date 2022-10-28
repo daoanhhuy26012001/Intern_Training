@@ -1,0 +1,41 @@
+* {
+    font-family: Arial, Verdana, sans-serif;
+}
+
+body {
+    color: #665544;
+    padding: 10px;
+}
+
+.page {
+    border: 1px solid #66cdaa;
+    background-color: hsl(0, 0%, 78%);
+    padding: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-shadow: 3px 1px 0px #66cdaa;
+    color: black;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+p {
+    text-align: justify;
+    color: #665544;
+    word-spacing: 0.1em;
+    line-height: 1.4em;
+}
+
+i {
+    color: black;
+}
+
+a {
+    color: black;
+}
