@@ -1,0 +1,67 @@
+body {
+    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+    margin: 2em;
+}
+
+nav ul {
+    display: flex;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 8px;
+    text-transform: uppercase;
+}
+
+nav li:nth-child(2) {
+    order: 2;
+    margin-left: auto;
+}
+
+nav a {
+    padding: 0.5em;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 0.5em;
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:focus {
+    outline: 4px solid orange;
+}
+
+/* ******************************/
+.my-element {
+    margin-top: 50px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.box:nth-child(1) {
+    order: 3;
+}
+
+.box:nth-child(2) {
+    order: 1;
+}
+
+.box:nth-child(3) {
+    flex: 3;
+    order: 2;
+}
+
+.box {
+    padding: 5px 20px 5px 20px;
+    border: 1px solid #000;
+    /* box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3); */
+    font-weight: 500;
+    text-align: center;
+    max-width: 40rem;
+}
