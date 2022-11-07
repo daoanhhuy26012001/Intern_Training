@@ -1,0 +1,51 @@
+*{
+
+    /* color: green; */
+}
+/* Universal selector */
+:root{
+    --color-primary: green;
+    --color-primary-x-light: blue;
+
+}
+div{
+
+    width: max-content;
+    height: auto;
+    box-sizing: border-box;
+    border: 5px solid #000;
+    padding: 10px;
+    
+}
+/* type selector */
+
+article p:first-of-type {
+    color: red;
+    font-size: 1.5em;
+    position: relative;
+}
+
+.btn{
+    color: #000;
+    background-color: aqua;
+    padding: 10px;
+    border: none;
+}
+/* Class selector */
+
+#btn-id{
+    color: azure;
+}
+/* id selector */
+
+[data-type= 'primary' s]{
+    color: red;
+}
+/* Attribute selector */
+
+#btn-id:hover{
+    cursor: pointer;
+    color: red;
+    background-color: #000;
+}
+/* Pseudo-classes */
