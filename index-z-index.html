@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/index-z-index.css" />
+    <title>Z-index and stacking contexts</title>
+</head>
+
+<body>
+    <div class="my-element">
+        <div class="child">I am behind my parent</div>
+    </div>
+        <div>
+            <div class="top">
+            <code>z-index: 1;</code>
+            <div class="inner">
+                <code>z-index: 999;</code>
+            </div>
+        </div>
+        <div class="bottom">
+            <code>z-index: 2;</code>
+            <div class="inner">
+                <code>z-index: 2;</code>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
