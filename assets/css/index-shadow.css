@@ -1,0 +1,47 @@
+body {
+    display: flex;
+}
+
+.my-element {
+    box-shadow: 5px 5px 20px 5px darkslateblue, -5px -5px 20px 5px dodgerblue,
+        inset 0px 0px 10px 2px darkslategray, inset 0px 0px 20px 10px steelblue;
+    border-radius: 25px;
+}
+
+/* Presentational styles */
+.my-element {
+    width: 250px;
+    height: 250px;
+    margin: 5em 25em;
+    overflow: hidden;
+}
+
+.my-shadow {
+    width: 150px;
+    height: auto;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 50px 50px;
+    text-shadow: 1px 1px 0px white, 2px 2px 0px firebrick;
+    color: darkslategray;
+}
+
+/* --------------------------------------------------------- */
+
+figure {
+    max-width: 25rem;
+    margin: 2em auto;
+    padding: 1em;
+    background: #718093;
+    border-radius: 0.5em;
+}
+
+figcaption {
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+
+figure img {
+    filter: drop-shadow(0px 0px 10px hotpink) drop-shadow(10px 10px 20px rgba(0 0 0 / 30%))
+}
