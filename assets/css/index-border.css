@@ -1,0 +1,20 @@
+.my-element {
+    border: 2px solid;
+    /* border-radius: 95px 155px 148px 103px / 48px 95px 130px 203px; */
+    background-color: brown;
+}
+
+
+/* Presentational styles */
+.my-element {
+    width: 250px;
+    height: 250px;
+}
+
+.my-element {
+    border-image-source: url(https://assets.codepen.io/174183/border-image-frame.jpg);
+    border-image-slice: 61 58 51 48;
+    border-image-width: 20px 20px 20px 20px;
+    border-image-outset: 0px 0px 0px 0px;
+    border-image-repeat: stretch stretch;
+  }
