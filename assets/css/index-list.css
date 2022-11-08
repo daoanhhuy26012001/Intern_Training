@@ -1,0 +1,13 @@
+.list-1{
+    list-style-type: "🛒";
+}
+  
+li{
+    padding-left: .8em;
+}
+.list-2{
+}
+
+::marker{
+    color: plum;
+}
