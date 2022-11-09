@@ -1,6 +1,5 @@
 .chat-ui, .chat-scrollview {
     overflow: visible;
-    height: 300px;
 }
 .cluster {
     justify-content: center;
