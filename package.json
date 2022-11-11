@@ -1,6 +1,6 @@
 {
   "name": "example-html-css",
-  "source": "index.html",
+  "source": "./example/index.html",
   "scripts": {
     "start": "parcel",
     "watch": "parcel watch",
