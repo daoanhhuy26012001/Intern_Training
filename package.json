@@ -1,0 +1,13 @@
+{
+  "name": "practice-two",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel",
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
+}
+
