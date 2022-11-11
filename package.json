@@ -1,5 +1,5 @@
 {
-  "name": "practice-two",
+  "name": "example-html-css",
   "source": "index.html",
   "scripts": {
     "start": "parcel",
